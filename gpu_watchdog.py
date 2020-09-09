@@ -11,6 +11,7 @@ parser.add_argument('--index', type=int, default=0, help='Index of the GPU to be
 opt = parser.parse_args()
 
 sckey = ''  # your sckey
+assert sckey != ''  # No sckey is given 
 li = []
 while True:    
     gpu = GPUtil.getGPUs()[opt.index]

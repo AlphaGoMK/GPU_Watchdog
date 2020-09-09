@@ -6,7 +6,7 @@ Detect the end of training process or program failure (eg. out of mem) by monito
 2. GPUtil 1.4.0
 
 ### Usage
-1. Register and get SCKEY at [Server酱](sc.ftqq.com)  
+1. Register and get SCKEY at [Server酱](https://sc.ftqq.com), fill it into `gpu_watchdog.py:13`  
 2. Run `python gpu_watchdog.py --threshold 1024 --index 0`  
 
 ```shell
